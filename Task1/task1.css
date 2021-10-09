@@ -1,0 +1,403 @@
+.bdy {
+    background-color:#EEEE;
+}
+
+/*contain all ele*/
+.imgdiv{
+float: left;
+
+}
+
+.span1{
+    margin-left: 108px;
+    margin-top: 10px;
+    margin-bottom: -31px;
+}
+.mainDiv{
+    margin-top: 50px;
+    margin-left: 118px;
+    margin-right: 30px;
+    width: 629px;
+    height: 500px;
+    border: 1px solid;
+background-color: white;}
+
+
+    .maindiv1{
+   height: 400px;
+  margin-left: -1px;
+    float: left;
+    /*  border: 1px solid */
+  
+    width: 250px;
+  float: left;
+
+    }
+    .txtpassword:focus{
+        Border-color:#66afe9;
+        outline: 0;}
+    
+
+     
+        
+    
+    .txtpassword{
+        width: 396px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    color: #555555;
+    height: 21px;
+    margin-left: -63px;
+    }
+    .maindiv2{
+        height: 400px;
+   margin-left: 6px;
+    float: left;
+    /*  border: 1px solid; */
+    width: 250px;
+float: left;
+    }
+    .content{
+     height: 50px;
+     padding-top: 12px;
+    border-bottom-style: solid;
+    border-bottom-color: #E6ECF3;
+    width: 154px;
+    margin-left: 1px;
+    }
+    .spanall{
+        margin-left: 19px;
+        margin-top: 13px;
+    }
+    .content:hover{
+        background-color:#F0F0F0;
+    }
+.dv4{
+    width: 299px;
+    /*  border: 1px solid; */
+    height: 66px;
+    margin-top: 22px;
+    margin-right: 25px;
+}
+.content4{
+    float: left;
+}
+.immg{
+    width: 70px;
+    height: 72px;
+    margin-top: 19px;
+    margin-left: -66px;
+}
+
+/* div contain 3 ele */
+.last3{
+    float: left;
+    margin-left: 22px;
+    /* margin-bottom: 29px; */
+    margin-top: -69px;
+}
+.username{
+    margin-top: 104px;
+margin-left: -63px;
+}
+.elesize{
+    font-size: 15px;
+}
+.generaltxt1{
+    margin-top: 5px;
+margin-left:-63px;
+}
+.generaltxt2{
+    margin-top: 5px;
+    margin-left:-63px;
+}
+.generalname{
+
+    margin-top: 9px;
+margin-left: -63px;
+}
+.generalEmail{
+
+    margin-top: 9px;
+    margin-left: -63px;
+}
+.txtemail{
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    height: 23px;
+    color: #555555;
+    width: 397px;
+    margin-top: 5px;
+margin-left:-63px;
+}
+.txtemail:focus{
+    border-color:#66afe9;
+    outline: 0; 
+}
+.txtconfirm{
+    padding-top: 7px;
+
+}
+.spanemailtxt{
+
+    padding-left: 23px;font-size: 12px;
+}
+
+.underlineE{
+    padding-left: 23px;font-size: 12px;
+}
+.companydiv{
+    margin-top: 9px;
+margin-left: -63px;
+}
+.companyspan{
+    
+font-size: 15px;
+}
+.cmpdiv{
+    margin-top: 5px;
+    margin-left:-63px;
+
+}
+.generallastpart{
+
+    margin-top: 8px;
+    width: 290px;
+    height: 78px;
+    margin-left: 76px;
+
+
+}
+.gensavebtn{
+    margin-left: 102px;color: #ffffff;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    background-color: #428bca;
+    border-color: #357ebd;
+    padding: 5px;
+}
+
+.canceldiv{
+    margin-left:-15px;
+    margin-top: -23px;
+
+}
+.inptcancel{
+    margin-left: 225px;
+    margin-top: -20px; padding: 3px;
+}
+.divpass{
+    margin-top: 12px;
+        margin-left: 182px;
+}
+.spnpass{
+    font-size: 15px; margin-left: -62px;
+}
+.txtallpass{
+    margin-top:15px;
+    margin-left: 187px;
+
+}
+/*new and repeat  pass */
+
+.passwo{
+    margin-top: 10px;
+        margin-left: 182px;
+}
+.lstpartpassw{
+
+    margin-top: 8px;
+        width: 431px;
+        height: 78px;
+        margin-left: 193px;
+}
+.divsavpassw{
+    width: 344px;
+    margin-top: 9px;
+}
+
+.divbtncancelpass{
+    margin-left: 124px;
+    margin-top: -23px;
+    width: 385px;
+}
+.inptcanclpassw{
+    margin-left: 168px;
+    margin-top: -20px;
+    padding: 3px;
+}
+.dvbio{
+    margin-top: 12px;
+    margin-left: 182px;
+
+}
+/* country bd bio */
+.inptbio{
+    font-size: 15px; margin-left: -62px;
+}
+/*  dv bd ,countyr*/
+.divinf{
+    margin-top: 15px;
+    margin-left: 182px;
+}
+.divtxt{
+    margin-top: 5px;
+    margin-left: 187px;
+}
+.btn{
+    color: #ffffff; 
+    border: 1px solid transparent;
+    border-radius:  4px;
+    background-color:  #428bca;
+   border-color:  #357ebd;
+   font-size: 11px;
+    /* margin: 3px; */
+    /* padding-top: 4px; */
+    padding: 7px;
+}
+.contactdiv{
+    width: 350px; margin-top: 65px;
+}
+.spncontent{
+
+    margin-left: -61px;
+}
+.dvphon{
+ margin-top: 17px;
+}
+.spnphone{
+    margin-left: -59px;
+}
+.dvwebsit{
+    margin-top: 13px;
+}
+.dvinfopart{
+
+    margin-left: 124px;
+    margin-top: -23px;
+    width: 385px;
+}
+.dvvinfo{
+    margin-top: 8px;
+    width: 431px;
+    height: 78px;
+    margin-left: 193px;
+}
+.infobtn{
+    margin-left: 225px;
+        margin-top: -20px; padding: 3px;
+}
+.dvactivity{
+    margin-top: 46px;
+}
+.spnapp{
+    font-size: 21px;
+                font-weight: bold;margin-left: -68px;
+}
+.check1{
+    margin-left: -65px;
+}
+.check2{
+    margin-left: -65px;
+}
+.reset{
+    color: #ffffff; 
+    border: 1px solid transparent;
+   border-radius: 4px;
+   background-color: #d9534f;
+    border-color: #d43f3a;
+    padding: 6px;
+    margin-left: 10px;
+}
+.svactivity{
+    width:344px; margin-left: 198px;
+}
+
+.txt{
+    width: 393px;
+    border: 1px solid #cccccc;
+        border-radius:  4px;
+        padding: 5px;
+        color: #555555;
+}
+.txt:focus{
+   border-color:#66afe9;
+   outline: 0;
+}
+/*  confirmation*/
+.dvv{
+    height: 60px;
+    margin-top: 11px;
+    margin-left: -60px;
+    width: 401px;
+    background-color: #FFF3CD;
+}
+.divacti{
+    margin-top: 11px;
+}
+.activispn{
+    font-size: 21px;
+            font-weight: bold;margin-left: -68px;
+}
+/* birthday bio*/
+.txtpass{
+    width: 401px;
+    height: -8px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    color: #555555;
+    margin-left: -61px;
+}
+.txtpass:focus{
+    Border-color:#66afe9;
+    outline: 0;
+}
+.savpass{
+    margin-left: 184px;color: #ffffff;
+        border: 1px solid transparent;
+        border-radius: 4px;
+        background-color: #428bca;
+        border-color: #357ebd;
+        padding: 5px;
+
+}
+.selinfo{
+    width: 401px;
+    height: -8px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    color: #555555;
+    margin-left: -61px;
+}
+
+.contact{
+    width: 394px;
+    margin-left: -59px;
+        margin-top: 3px;
+        color: #555555;
+        border: 1px solid #cccccc;
+        border-radius: 4px;
+}
+.contact:focus{
+    
+    Border-color:#66afe9;
+    outline: 0;
+
+}
+.check{
+    margin-bottom: 4px;
+    font-size: 14px;
+    margin-top: 6px;
+}
+
+/* notification*/
+.savv{
+    margin-left: 184px;color: #ffffff;
+        border: 1px solid transparent;
+        border-radius: 4px;
+        background-color: #428bca;
+        border-color: #357ebd;
+        padding: 7px;
+        padding-left: 12px;
+       
+    }

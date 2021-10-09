@@ -1,0 +1,362 @@
+
+.mainDiv{
+    height: 348px;
+    /*border: 1px solid;*/
+    width: 1145px;
+    margin-left: 63px;
+    margin-top: 17px;
+    background-color: white;
+}
+.bdy{
+    background-color: #EEEEEE;
+}
+.cover{
+    background-color: #00b5ec;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0, rgba(0, 0, 0, 0.4) 100%);
+    height: 309px;
+    float: left;
+    width: 1145px;
+}
+.imgDiv{
+   
+    background-color: white;
+    width: 220px;
+    border-radius: 50%;
+    margin-top: 28px;
+    float: revert;
+    clear: revert;
+    height: 209px;
+    margin-left: 424px;
+}
+.imgstyle{
+    width: 200px;
+border-radius: 50%;
+margin-left: 11px;
+margin-top: 5px;
+}
+.JohnDeon{
+    width: 200px;
+    margin-left: 471px;
+    margin-top: 15px;
+    height: 26px;
+}
+.spanjohn{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 19px;
+}
+.aboutme{
+    float: left; 
+height: 21px;
+margin-left: 11px;
+margin-top: 9px;
+}
+.spanBar{
+    font-size: 16px;
+}
+.projects{
+    float: left;float: left;
+height: 21px;
+margin-top: 9px;
+margin-left: 69px;
+}
+.settings{
+    float: left;
+    height: 21px;
+    margin-top: 9px;
+    margin-left: 69px;
+}
+
+.personalinfo{
+    
+    width: 262px;
+    margin-left: 63px;
+    margin-top: 40px;
+    height: 269px;
+    background-color: white;
+    float: left;
+    clear: left;
+}
+
+/* style personal info*/
+/* personal&BIO */
+.styleinfo{
+    margin-left: 1px;
+    /* border-block-style: solid; */
+    height: 33px;
+    margin-top: 12px;
+    border-bottom-style: solid;
+    border-bottom-color: #EEEEEE;
+}
+.spaninfo{
+    margin-left: 16px;
+    /* margin-top: 9px; */
+    font-size: 14px;
+    font-weight: bold;
+}
+.infodiv{
+    margin-left: 1px;
+    margin-top: 10px;
+}
+.spanfullinfo{
+    
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 16px;
+}
+.detailname{
+    margin-left: 1px;
+}
+.spanname{
+    font-size: 12px;
+    font-weight: bold;
+    /* color: #EEEEEE; */
+    color: #999999;
+    margin-left: 16px;
+}
+/* end style personal info */
+.BioBox{
+    margin-top: 40px;
+    width: 842px;
+    height: 199px;
+    background-color: white;
+    margin-left: 40px;
+    float: left;
+  
+}
+.Bioinf{
+    
+    
+    font-size: 13px;
+    /* font-weight: bold; */
+    margin-left: 16px;
+    
+}
+.paragraph{
+    margin-left: 1px;
+    margin-top: 10px;
+}
+    .rowBoldParagr{
+        margin-left: 17px;
+    font-size: 12px;
+    font-weight: bold;
+    }
+    .Bioinf2{
+        margin-right: 7px;
+    font-size: 13px;
+    /* font-weight: bold; */
+    margin-left: 16px;
+    }
+.skillsBox{
+    margin-top: 40px;
+    width: 842px;
+    height: 300px;
+    background-color: white;
+    margin-left: 40px;
+    float: left;
+}
+.MaterialSkills{
+    margin-left: 1px;
+margin-top: 10px;
+}
+.BarSkills{
+    margin-left: 32px;
+    font-size: 13px;
+}
+/* all bar skills */
+.divallskills{
+    width: 785px;
+    margin-left: 33px;
+    margin-top: 9px;
+    height: 17px;
+    background-color: #EEEEEE;
+    border-radius: 10px;
+}
+.BoxLanguage{
+    width: 262px;
+    float: left;
+    clear: left;
+    margin-left: 63px;
+    margin-bottom: 20px;
+    /* border: 1px solid; */
+    margin-top: -237px;
+    height: 233px;
+    background-color: white;
+}
+.unorderdlist{
+    width: 240px;
+    margin-left: 12px;
+}
+.elementsinUNlist{
+    color: #999999;
+    margin-top: 18px;
+    font-size: 13px;
+}
+.settingsBox{
+    height: 660px;
+    /* border: 1px solid; */
+    width: 1145px;
+    margin-left: 63px;
+    margin-top: 42px;
+    float: left;
+    background-color: white;
+    margin-bottom: 5px;
+}
+
+.editprofilehead{
+    margin-left: 1px;
+    /* border-block-style: solid; */
+    height: 33px;
+    margin-top: 12px;
+    border-bottom-style: solid;
+    border-bottom-color: #EEEEEE;
+}
+.spanEDITheader{
+    margin-left: 16px;
+    /* margin-top: 9px; */
+    font-size: 14px;
+    font-weight: bold;
+}
+.allstyleforEDITdiv{
+    width: 200px;
+    margin-left: 29px;
+    margin-top: 21px;
+}
+.spanstyleforallELEMENT{
+    font-weight: 600;
+}
+.textbox-style-all{
+   
+    margin-left: 29px;
+    margin-top: 8px;
+    width: 1000px;
+
+}
+.textbox-width{
+    width: 700px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    color: #555555;
+    height: 24px;
+}
+.textbox-width:focus{
+    Border-color:#66afe9;
+    outline:0;
+}
+
+.area{
+    width: 700px;
+    height: 79px;
+}
+.area:focus{
+    Border-color:#66afe9;
+    outline:0;
+}
+.savebtn{
+    color: #ffffff; 
+    border: 1px solid transparent;
+    border-radius: 4px;
+    background-color: #428bca;
+    border-color: #357ebd;
+    padding: 6px;
+}
+.savebtn:hover{
+    background-color: #3276b1;
+    border-color: #285e8e;
+
+}
+
+
+table{
+    width: 80%;
+    border-spacing: 0px;
+}
+table td{
+  padding: 10px;
+  text-align: center;
+  
+}
+ tr td{
+    border-bottom: 1px solid #E6ECF3;
+   
+}
+
+ tr th{
+    border-bottom: 3px solid #dee2e6;
+   font-weight: bold;
+   padding-top: 15px;
+padding-bottom: 5px;
+ }
+ tr:nth-child(3){
+     background-color: #FFFFFF;
+ }
+
+ 
+ .hover-tr:hover{
+  background-color: #F0F0F0;
+ }
+ .background{
+  background-color: #f5f5f5;
+ }
+
+.div-save-btn{
+    width: 600px;
+    margin-left: 29px;
+    margin-top: 18px;
+}
+.projectBox{
+    height: 358px;
+    /* border: 1px solid; */
+    width: 1145px;
+    margin-left: 63px;
+    margin-top: 42px;
+    float: left;
+    background-color: white;
+    margin-bottom: 5px;
+}
+
+
+
+
+  
+
+  
+
+
+
+
+
+.projectheader{
+    margin-left: 1px;
+    /* border-block-style: solid; */
+    height: 33px;
+    margin-top: 12px;
+    border-bottom-style: solid;
+    border-bottom: 1px solid #E6ECF3;
+   
+}
+.projectspan{
+    margin-left: 16px;
+    /* margin-top: 9px; */
+    font-size: 14px;
+    font-weight: bold;
+}
+tr:nth-child(1){
+    font-weight: bold;
+    border-bottom: 3px solid #dee2e6;
+}
+.percentg{
+    font-size: 13px;
+    margin-left: 704px;
+}
+
+.div-html-style{
+    font-size: 13px;
+margin-left: 35px;
+margin-top: 12px;
+}
+
+.span-html{
+    margin-left: 688px;
+}

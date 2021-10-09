@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+<title>Profile</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="task2.css">
+
+<script type="text/javascript">
+    function Toggle(value){
+        switch(value){
+            case 'aboutMe':
+                document.getElementById('aboutMe').style.display="block";
+                document.getElementById('Projects').style.display="none";
+                document.getElementById('Settings').style.display="none";
+                break;
+            case 'Projects':
+                document.getElementById('aboutMe').style.display="none";
+                document.getElementById('Projects').style.display="block";
+                document.getElementById('Settings').style.display="none";
+                break;
+            case 'Settings':
+                document.getElementById('aboutMe').style.display="none";
+                document.getElementById('Projects').style.display="none";
+                document.getElementById('Settings').style.display="block";
+                break;
+        }
+    }
+    </script>
+</head>
+<body class="bdy" >
+<div class="mainDiv"><!--main div-->
+
+<div class="cover"><!--cover img style-->
+
+<div class="imgDiv"><!--img-->
+<img src="avatar7.png" alt="Avatar" class="imgstyle"/>
+</div>
+
+<div class="JohnDeon"><span class="spanjohn">John Deon</span> </div>
+
+</div><!-- end cover img style-->
+
+
+<!--Bar -->
+<div class="aboutme" onclick="Toggle('aboutMe')"><span class="spanBar">ABOUT ME</span></div>
+
+<div class="projects" onclick="Toggle('Projects')"><span class="spanBar">PROJECTS</span></div>
+<div  class="settings" onclick="Toggle('Settings')"><span class="spanBar">SETTINGS</span></div>
+<!--end Bar-->
+</div><!--end main div-->
+
+<div id="aboutMe">
+
+
+
+<div class="personalinfo"><!--personal information-->
+  <div class="styleinfo"><span class="spaninfo">PERSONAL INFORMATION</span></div>
+
+  <div class="infodiv"><span class="spanfullinfo">Full Name</span></div>
+  <div class="detailname"><span class="spanname">Johnathan Deo</span></div>
+  <div class="infodiv"><span class="spanfullinfo">Mobile</span></div>
+  <div class="detailname"><span class="spanname">(123) 123 1234</span></div>
+  <div class="infodiv"><span class="spanfullinfo">Email</span></div>
+  <div class="detailname"><span class="spanname">johnathandeon@moltran.com</span></div>
+  <div class="infodiv"><span class="spanfullinfo">Location</span></div>
+  <div class="detailname"><span class="spanname">USA</span></div>
+
+</div><!--personal information-->
+
+<div class="BioBox"><!--BIO-->
+<div class="styleinfo"><span class="spaninfo">BIOGRAPHY</span></div>
+<div class="paragraph">
+<p class="Bioinf"> Lorem lpsum is simply dummy text of the printing and typesetting industry.Lorem lpsum has been the industry's standard
+dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
+book. It has survived not only five centuries, but also the leap into electronic typesetting, remainıng essentialy unchanged.</p></div>
+
+<p class="rowBoldParagr">But also the leap into electronic typesetting, remaining essentially unchanged.</p>
+<p class="Bioinf2">It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with
+    desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+</div><!--endBIO-->
+
+<!--Skills-->
+<div class="skillsBox">
+
+<div class="styleinfo"><span class="spaninfo" >SKILLS</span></div>
+
+<div class="MaterialSkills">
+<span class="BarSkills">Angular Js </span> <span class="percentg">60%</span></div>
+<div class="divallskills"></div>
+
+<div class="MaterialSkills">
+    <span class="BarSkills">Javascript </span> <span class="percentg">90%</span></div>
+        <div class="divallskills"></div>
+
+        <div class="MaterialSkills">
+<span class="BarSkills">Wordpress </span> <span class="percentg">80%</span></div>
+    <div class="divallskills"></div>
+<div class="div-html-style"><span>HTML&CSS</span>
+<span class="span-html">95%</span></div>
+   
+         <div class="divallskills"></div>  
+</div>
+<!--Skills-->
+
+
+<!--language-->
+<div class="BoxLanguage">
+
+<div class="styleinfo"><span class="spaninfo" >LANGUAGE</span></div>
+
+<div class="unorderdlist">
+    <ul class="elementsinUNlist">
+        <li>English</li>
+        <li>Franch</li>
+        <li>Greek</li>
+      </ul> 
+</div>
+
+
+
+
+
+
+</div>
+
+</div>
+
+<div id="Projects" style="display: none;">
+    <div class="projectBox">
+        <div class="projectheader"><span class="projectspan">MY PROJECTS</span></div>
+    
+        <table>
+            <tr>
+              <th>#</th>
+             <th>Project Name</th>
+              <th>Start Date</th>
+             <th>Due Date</th>
+             <th>Assign</th>
+            </tr>
+           
+            <tr class="hover-tr background" >
+                <td>1</td>
+                <td>Moltran Admin</td>
+                <td>01/01/2015</td>
+                <td>07/05/2015</td>
+                <td>Coderthemes</td>      
+              </tr>
+    
+              
+            <tr class="background">
+                <td>2</td>
+                <td>Moltran Fronted</td>
+                <td>01/01/2015</td>
+                <td>07/05/2015</td>
+                <td>Coderthemes</td>      
+              </tr>
+    
+              <tr class="hover-tr background">
+                <td>3</td>
+                <td>Moltran Admin</td>
+                <td>01/01/2015</td>
+                <td>07/05/2015</td>
+                <td>Coderthemes</td>
+              </tr>
+              </table>
+        </div> 
+</div>
+
+<div id="Settings" style="display: none;">
+    <div class="settingsBox"><!--settings main div-->
+
+        <div class="editprofilehead"><span class="spanEDITheader">EDIT PROFILE</span></div>
+    
+        <div class="allstyleforEDITdiv"><span class="spanstyleforallELEMENT">Name</span></div>
+        <div class="textbox-style-all"><input type="text" class="textbox-width"/></div>
+    
+        <div class="allstyleforEDITdiv"><span class="spanstyleforallELEMENT">Email</span></div>
+        <div class="textbox-style-all"><input type="text" class="textbox-width"/></div>
+    
+        <div class="allstyleforEDITdiv"><span class="spanstyleforallELEMENT">Username</span></div>
+        <div class="textbox-style-all"><input type="text" class="textbox-width"/></div>
+    
+        <div class="allstyleforEDITdiv"><span class="spanstyleforallELEMENT">Password</span></div>
+        <div class="textbox-style-all"><input type="text" class="textbox-width"/></div>
+    
+        <div class="allstyleforEDITdiv"><span class="spanstyleforallELEMENT">Re-Password</span></div>
+        <div class="textbox-style-all"><input type="text" class="textbox-width"/></div>
+    
+        <div class="allstyleforEDITdiv"><span class="spanstyleforallELEMENT">About Me</span></div>
+        <div class="textbox-style-all"><textarea class="area"></textarea>
+     
+        </div>
+        <div class="div-save-btn"><button class="savebtn">Save Changes</button></div>
+
+    </div><!-- end settings-->
+</div>
+
+</body>
+</html>
+
+
+
+
+
+
+

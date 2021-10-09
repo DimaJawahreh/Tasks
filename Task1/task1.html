@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Account Setting</title>
+<mete name="viewport" content=" width=device-width,initial scal=1"/>
+ <link href="task1.css" rel="stylesheet" type="text/css" />
+
+ <script type="text/javascript">
+    function Toggle(value){
+        switch(value){
+            case 'General':
+            document.getElementById('General').style.display="block";
+            document.getElementById('Password').style.display="none";
+            document.getElementById('Info').style.display="none";
+            document.getElementById('Notification').style.display="none";
+            break;
+            case 'Password':
+            document.getElementById('General').style.display="none";
+            document.getElementById('Password').style.display=" block";
+            document.getElementById('Info').style.display="none";
+            document.getElementById('Notification').style.display="none";
+
+            break;
+            case 'Info':
+            document.getElementById('General').style.display="none";
+            document.getElementById('Password').style.display="none";
+            document.getElementById('Info').style.display="block";
+            document.getElementById('Notification').style.display="none";
+            break;
+            case 'Notification':
+            document.getElementById('General').style.display="none";
+            document.getElementById('Password').style.display="none";
+            document.getElementById('Info').style.display="none";
+            document.getElementById('Notification').style.display="block";
+            break;
+        }
+    }
+    </script>
+
+</head>
+<body class="bdy">
+    <div class="span1"><h3>Account Settings</h3></div>
+<div class="mainDiv" ><!--  main div-->
+
+
+
+<div class="maindiv1" class="hi"><!-- div 1-->
+<div class="content" onclick="Toggle('General')" ><span class="spanall">General</span></div>
+<div class="content" onclick="Toggle('Password')"><span class="spanall">Change Password</span></div>
+<div class="content" onclick="Toggle('Info')" ><span class="spanall">Info</span></div>
+<div class="content" onclick="Toggle('Notification')" ><span class="spanall">Notifications</span></div>
+</div><!-- end  div1-->
+
+
+
+<div class="maindiv2" id="General" >
+
+
+<div><!--contain all ele-->
+
+<div class="imgdiv"><img class="immg" src="avatar.png" /></div>
+
+<div class="last3" ><!--antain the last 3 ele-->
+<div class="imgdiv" >
+<input type="button" value="Upload New Photo" class="btn"/>
+</div>
+<div class="imgdiv">
+<input  type="button" value="Reset"  class="reset" />
+</div>
+<div class="imgdiv"> <span style="font-size: 12px;"> Allowed JBG,GIF or PNG,Max size of 800k</span></div>
+</div>
+
+</div>
+
+
+
+<div  class="username"><span class="elesize">UserName</span></div><!--username-->
+
+<div class="generaltxt1"><input type="text" class="txt"/></div>
+
+
+
+<div class="generalname"><span class="elesize">Name</span></div><!--name-->
+
+<div  class="generaltxt2"><input type="text" class="txt"/></div><!--txtbox name-->
+
+
+
+<div class="generalEmail"><span class="elesize">Email</span></div><!--email-->
+
+<div class="txtEmail"><input type="text" class="txtemail"/></div><!--txtemail-->
+
+
+
+<div class="dvv"><!--confirmation-->
+<div class="txtconfirm"><span class="spanemailtxt">Your Email is not confirmed.Please check your inbox</span> </div>
+<div><a href=""  class="underlineE">Resend confirmation</a> </div>
+</div>
+
+
+
+<div class="companydiv"><span class="companyspan">Company</span></div>
+
+<div class="cmpdiv"><input type="text" class="txt"/></div>
+
+
+<div class="generallastpart"
+>
+
+<div><input type="button" value="Save Changes" class="gensavebtn"></div>
+
+<div  class="canceldiv"><input type="button" value="Cancel" class="inptcancel" /></div>
+
+</div>
+
+
+
+</div><!-- div 2-->
+
+
+
+
+<div id="Password"   class="maindiv2" style="display: none;" >
+    
+
+        <div style="margin-top: 14px;
+        margin-left: -63px;
+        margin-bottom: 5px;" ><span >Current Password</span> </div>
+    
+    <div ><input type="text" class="txtpassword" >
+    </div><!--txt1-->
+    
+    <!--newpass-->
+    <div style="
+        margin-left: -1px;
+    margin-top: 11px;
+    margin-bottom: 5px;" ><span style="margin-left: -61px;" >New Password</span> </div>
+    
+    <div ><input type="text"  class="txtpassword"/>
+    </div><!--txt2-->
+    
+    
+    <div style=" margin-bottom: 8px;
+    margin-top: 9px;
+    margin-left: -62px;">
+        <span >Repeat New Password</span> </div>
+        <div ><input type="text"  class="txtpassword"/>
+        </div><!--txt3-->
+    
+    
+         <!--the last part--><div >
+        
+        
+        <div class="divsavpassw"><input type="button" value="Save Changes" class="savpass" /></div>
+        
+        <div  class="divbtncancelpass"><input type="button" value="Cancel" class="inptcanclpassw" /></div>
+        
+        </div>
+        
+</div>
+
+<div id="Info" style="display: none;">
+    <div><!--div2-->
+
+        <div class="dvbio"><span class="inptbio">Bio</span> </div>
+    
+    <div class="divtxt"><input type="text" class="txtpass"/>
+    </div><!--txt1-->
+
+    <div class="divinf"><span class="inptbio">Birthday</span> </div>
+
+<div class="divtxt"><input type="date" class="txtpass"/>
+</div><!--txt2-->
+
+
+<div class="divinf">
+    <span class="inptbio">Country</span> </div>
+    <div class="divtxt">
+    <select  class="selinfo">
+        <option selected="selected">USA</option>
+    </select>
+    </div><!--txt3-->
+
+
+
+    <!--contacts-->
+
+    <div  class="contactdiv">
+        <span class="spncontent">Contacts</span></div>
+
+
+    <div class="dvphon"><span class="spnphone">Phone</span></div>
+    <div><input  type="text"  class="contact"/></div>
+
+
+<div class="dvwebsit"><span class="spnphone">Website</span></div>
+    <div><input  type="text" class="contact" /></div>
+
+<!--last part info-->
+    <div class="dvvinfo"
+    >
+    
+    <div style="width:344px;"><input type="button" value="Save Changes" class="savpass" /></div>
+    
+    <div  class="dvinfopart"><input type="button" value="Cancel" class="infobtn" /></div>
+    
+    </div>
+    
+
+
+
+
+    </div><!--end div2-->
+</div>
+
+<div id="Notification" style="display: none;">
+    <div><!--div2-->
+
+        <div class="divacti">
+        <span class="activispn">Activity</span> 
+            </div>
+        
+        
+        
+        <div class="check"> <input type="checkbox" class="check1">Email me when someone comments on my article </div>
+        <div class="check"> <input type="checkbox"  class="check1">Email me when someone answers on my forum thread </div>
+        <div class="check"> <input type="checkbox" class="check1" >Email me when someone follows me </div>
+        
+        
+        <!--Application-->
+        <div class="dvactivity">
+            <span class="spnapp">Application</span> 
+                </div>
+        
+                <div class="check"> <input type="checkbox"  class="check2">News and announcements</div>
+                <div class="check"> <input type="checkbox"  class="check2">Weekly product updates</div>
+                <div class="check"> <input type="checkbox" class="check2" >Weekly blog digest </div>
+        
+        
+        
+                <div class="svactivity">
+                    <input type="button" value="Save Changes" class="savv" /></div>
+        
+            </div><!--end div2-->
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+</div><!-- end main div-->
+</body>
+
+</html>
+
+
+
+
